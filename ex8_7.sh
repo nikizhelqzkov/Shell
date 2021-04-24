@@ -5,7 +5,6 @@ sleep 2
 echo "bye\n"
 sleep 3
 set `ps -u $1 -o "pid" | tail -n +2`
-
 for i in $@
 do
 kill -9 $i
