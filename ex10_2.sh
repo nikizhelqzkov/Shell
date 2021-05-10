@@ -13,5 +13,4 @@ if [ ! -d $str ]; then
 
     done
     echo "Other files: " $count
-
 fi

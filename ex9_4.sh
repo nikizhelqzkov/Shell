@@ -15,6 +15,6 @@ cd $z
 touch names
 cd ../
 cp *.txt $1
-echo *.txt > $z/names
+echo *.txt >$z/names
 cp *.sh $2
-echo *.sh >> $z/names
+echo *.sh >>$z/names
