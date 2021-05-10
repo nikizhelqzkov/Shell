@@ -1,5 +1,3 @@
-#!/bin/bash
-
 echo Hello
 sleep 2
 echo How are you
@@ -16,4 +14,4 @@ echo THREEE
 sleep 2
 echo BUUUM BYEEEE
 sleep 1
-shutdown -p
+#shutdown "now"
